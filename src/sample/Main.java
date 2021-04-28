@@ -4,6 +4,8 @@ import sample.model.ItensPro;
 import sample.model.Pedido;
 import sample.model.Produto;
 
+/** Class Main  */
+
 public class Main  {
 
     public static void main(String[] args){

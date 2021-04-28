@@ -3,8 +3,12 @@ package sample.model;
 import java.util.ArrayList;
 import java.util.List;
 
+/** Classes */
+
 public class ItensPro {
 private List<Produto> produtos;
+
+    /** Getter e Setter */
 
     public List<Produto> getProdutos() {
         return produtos;
@@ -24,6 +28,8 @@ private List<Produto> produtos;
         produtos.add(produto);
 
     }
+
+    /** ToString */
 
     @Override
     public String toString() {

@@ -2,11 +2,15 @@ package sample.model;
 
 import java.util.Date;
 
+/** Classes */
+
 public class Pedido {
     private String descricao;
     private String data;
     private double total;
     private ItensPro itens;
+
+    /** Getter e Setter */
 
     public Pedido(){
         itens = new ItensPro();
@@ -37,6 +41,8 @@ public class Pedido {
         total += preco;
 
     }
+
+    /** ToString */
 
     @Override
     public String toString() {
